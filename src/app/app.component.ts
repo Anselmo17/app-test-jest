@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app-test-jest';
-
+  messageSend: string = '';
 
   message() {
-    alert('Teste feito com sucesso.')
+    this.messageSend = 'Teste chamada de metodo feito com sucesso.';
   }
 
   calcNumber(num1: number, num2: number) {
