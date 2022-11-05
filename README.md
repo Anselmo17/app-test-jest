@@ -28,7 +28,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## Requisitos para rodar o projeto
-criar projeto 
  - angular 12
  - node 14
  - instalar jest 
